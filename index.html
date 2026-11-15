@@ -205,7 +205,7 @@ footer b{color:var(--blue-dark); letter-spacing:2px}
   <div class="features" id="how">
     <div class="feat"><div class="ic">&#9873;</div><b>Pick Your Region</b><span>All Regions, Hazara, Kohat, Malakand, Mardan or Peshawar.</span></div>
     <div class="feat"><div class="ic">&#128214;</div><b>Choose Semester</b><span>1st to 8th semester, and your batch.</span></div>
-    <div class="feat"><div class="ic">&#128279;</div><b>Tap Open Folder</b><span>Your result file is inside its Google Drive folder.</span></div>
+    <div class="feat"><div class="ic">&#128279;</div><b>Tap Open File</b><span>Opens only your result file.</span></div>
     <div class="feat"><div class="ic">&#10084;</div><b>Free for Students</b><span>No fee, no login, no ads. Just tap and download.</span></div>
   </div>
 
@@ -217,7 +217,7 @@ footer b{color:var(--blue-dark); letter-spacing:2px}
     </div>
     <div class="filters" id="filters-regular"></div>
     <div class="results" id="results-regular"></div>
-    <div class="note">Tap <b>Open Folder</b> to see the file inside its Google Drive folder. Files stay on Google Drive.</div>
+    <div class="note">Tap <b>Open File</b> to open only that result file. Files stay on Google Drive.</div>
   </section>
 
   <!-- ======== SPECIAL ======== -->
@@ -375,7 +375,7 @@ footer b{color:var(--blue-dark); letter-spacing:2px}
         var a = document.createElement("a");
         a.className = "open-btn";
         a.href = r.url; a.target = "_blank"; a.rel = "noopener";
-        a.textContent = "Open Folder \u2197";
+        a.textContent = "Open File \u2197";
         card.appendChild(a);
         rEl.appendChild(card);
       });
